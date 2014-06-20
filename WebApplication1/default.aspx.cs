@@ -15,6 +15,7 @@ namespace WebApplication1
             string template = "Hello @Model.Name! Welcome to Razor!";
             string result = Razor.Parse(template, new { Name = "World" });
             Response.Write(result);
+
         }
     }
 }
